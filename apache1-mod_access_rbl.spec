@@ -1,6 +1,7 @@
 %define		mod_name	access_rbl
 %define 	apxs		/usr/sbin/apxs1
 Summary:	Apache module: access based on RBL
+Summary(pl):	Modu³ Apache'a: dostêp oparty o RBL
 Name:		apache1-mod_%{mod_name}
 Version:	0.1
 Release:	0.1
@@ -19,6 +20,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 mod_access_rbl is a superset replacement for mod_access. Both modules
 cannot be used at the same time.
+
+%description -l pl
+mod_access_rbl to rozbudowany zamiennik mod_access. Oba modu³y nie
+mog± byæ u¿ywane jednocze¶nie.
 
 %prep
 %setup -q -c
