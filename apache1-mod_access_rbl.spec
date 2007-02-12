@@ -1,7 +1,7 @@
 %define		mod_name	access_rbl
 %define 	apxs		/usr/sbin/apxs1
 Summary:	Apache module: access based on RBL
-Summary(pl.UTF-8):   Moduł Apache'a: dostęp oparty o RBL
+Summary(pl.UTF-8):	Moduł Apache'a: dostęp oparty o RBL
 Name:		apache1-mod_%{mod_name}
 Version:	0.1
 Release:	0.1
