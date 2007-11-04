@@ -10,7 +10,7 @@ Group:		Networking/Daemons
 Source0:	http://www.blars.org/mod_access_rbl.tar.gz
 # Source0-md5:	9a3a513435e57fe589d6b0cb8c7d7eb4
 URL:		http://www.blars.org/mod_access_rbl.html
-BuildRequires:	apache1-devel >= 1.3.33-2
+BuildRequires:	apache1-devel >= 1.3.39
 Requires:	apache1 >= 1.3.33-2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
