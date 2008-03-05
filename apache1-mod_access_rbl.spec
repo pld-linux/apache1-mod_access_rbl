@@ -4,14 +4,14 @@ Summary:	Apache module: access based on RBL
 Summary(pl.UTF-8):	Moduł Apache'a: dostęp oparty o RBL
 Name:		apache1-mod_%{mod_name}
 Version:	0.1
-Release:	0.1
+Release:	0.2
 License:	Apache Group
 Group:		Networking/Daemons
 Source0:	http://www.blars.org/mod_access_rbl.tar.gz
 # Source0-md5:	9a3a513435e57fe589d6b0cb8c7d7eb4
 URL:		http://www.blars.org/mod_access_rbl.html
 BuildRequires:	apache1-devel >= 1.3.39
-Requires:	apache1 >= 1.3.33-2
+Requires:	apache1(EAPI)
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_pkglibdir	%(%{apxs} -q LIBEXECDIR 2>/dev/null)
